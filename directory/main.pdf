@@ -1,3 +1,19 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[english, russian]{babel}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsthm, amsfonts, amssymb, amsthm, mathtools, dsfont}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Теорема}
+\newtheorem*{lemma}{Лемма}
+\newtheorem*{corollary}{Следствие}
+\newtheorem*{definition}{Определение}
+\newtheorem*{statement}{Утверждение}
+\newtheorem*{examples}{Примеры}
+
 \begin{document}
 	\title{Группы и алгебры Ли}
 	\date{Весенний семестр 2024 г.}
