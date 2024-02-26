@@ -30,9 +30,9 @@ jobs:
 
         # Больше параметров в офф. документации
 
-        working_directory: latex_sources/
+        working_directory: directory/
 
-        # Аргументы, к которыми запускать компилятор (latexmk)
+        # Аргументы, c которыми запускать компилятор (latexmk)
 
         # -jobname=<name> дает возможность поменять имя выходного файла
 
@@ -56,4 +56,4 @@ jobs:
 
         # Здесь это <working_directory>/<jobname>.pdf
 
-        path: latex_sources/my_doc.pdf
+        path: directory/pdf.pdf
